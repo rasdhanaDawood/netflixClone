@@ -1,4 +1,4 @@
-import {API_KEY} from './Constants/constants'
+import {API_KEY} from '.env'
 
 const actionUrl = `/discover/movie?api_key=${API_KEY}&with_genres=28`
 const originalsUrl = `/discover/tv?api_key=${API_KEY}&with_networks=213`
